@@ -1,0 +1,12 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": ["*.campaign.json"],
+            "url": "/campaign.schema.json"
+        },
+        {
+            "fileMatch": ["*.platform.json"],
+            "url": "/platform.schema.json"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title":{
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "start_at": {
+            "type": "number"
+        },
+        "end_at": {
+            "type": "number"
+        },
+        "status": {
+            "type":  "string",
+            "enum": [
+                "active",
+                "inactive",
+                "completed"
+            ]
+        },
+        "platform": {
+            "type": "string"
+        },
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": ["name"]
+            }
+        },
+        "rewards": {
+            "type": "object",
+            "properties": {
+                "droplets": {
+                    "type": "number"
+                }
+            },
+            "required": ["droplets"]
+        }
+        
+    },
+    "required": [
+        "id",
+        "title",
+        "description",
+        "start_at",
+        "end_at",
+        "status",
+        "platform",
+        "events",
+        "reward"
+    ]
+}
