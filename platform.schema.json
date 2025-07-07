@@ -11,7 +11,10 @@
         },
         "image": {
             "type": "string"
+        },
+        "link": {
+            "type": "string"
         }
     },
-    "required": ["id", "name", "description", "image"]
+    "required": ["id", "name", "description", "image", "link"]
 }

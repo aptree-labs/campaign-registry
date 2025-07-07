@@ -35,7 +35,25 @@
                 "properties": {
                     "name": {
                         "type": "string"
+                    },
+                    "elligibility": {
+                        "type": "object",
+                        "properties": {
+                            "interactions": {
+                                "type": "integer",
+                                "description": "Number of interactions required for elligibility"
+                            },
+                            "min_amount": {
+                                "type": "number",
+                                "description": "Min amount for a trade"
+                            },
+                            "token": {
+                                "type": "string",
+                                "description": "Optional token in event"
+                            }
+                        }
                     }
+                    
                 },
                 "required": ["name"]
             }
@@ -48,6 +66,13 @@
                 }
             },
             "required": ["droplets"]
+        },
+        "reffaral_link": {
+            "type": "string"
+        },
+        "network": {
+            "type": "string",
+            "enum": ["testnet", "mainnet"]
         }
         
     },
@@ -60,6 +85,7 @@
         "status",
         "platform",
         "events",
-        "reward"
+        "reward",
+        "reffaral_link"
     ]
 }
