@@ -1,0 +1,24 @@
+{
+    "id": "3",
+    "network": "mainnet",
+    "title": "Swap anything on Kana Labs", 
+    "description": "Swap any asset of any amount on Kanalabs",
+    "platform": "kana-labs",
+    "start_at": 1751888498347,
+    "end_at": 1754480498347,
+    "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_v3::swap_batch_coin_entry",
+    "reffaral_link": "",
+    "status": "active",
+    "events": [
+        {
+            "name": "0x9538c839fe490ccfaf32ad9f7491b5e84e610ff6edc110ff883f06ebde82463d::KanalabsRouterV2::swap_entry_with_recipient"
+        }
+    ],
+    "rewards": {
+        "droplets": 0
+    },
+    "elligibility": {
+        "interactions": 1
+    },
+    "category": "swap"
+}

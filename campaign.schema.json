@@ -28,6 +28,9 @@
         "platform": {
             "type": "string"
         },
+        "entry_function": {
+            "type": "string"
+        },
         "events": {
             "type": "array",
             "items": {
@@ -35,23 +38,6 @@
                 "properties": {
                     "name": {
                         "type": "string"
-                    },
-                    "elligibility": {
-                        "type": "object",
-                        "properties": {
-                            "interactions": {
-                                "type": "integer",
-                                "description": "Number of interactions required for elligibility"
-                            },
-                            "min_amount": {
-                                "type": "number",
-                                "description": "Min amount for a trade"
-                            },
-                            "token": {
-                                "type": "string",
-                                "description": "Optional token in event"
-                            }
-                        }
                     }
                     
                 },
@@ -73,6 +59,30 @@
         "network": {
             "type": "string",
             "enum": ["testnet", "mainnet"]
+        },
+        "elligibility": {
+            "type": "object",
+            "properties": {
+                "interactions": {
+                    "type": "integer",
+                    "description": "Number of interactions required for elligibility"
+                },
+                "min_amount": {
+                    "type": "number",
+                    "description": "Min amount for a trade"
+                },
+                "token": {
+                    "type": "string",
+                    "description": "Optional token in event"
+                }
+            }
+        },
+        "category": {
+            "type": "string",
+            "enum": [
+                "swap",
+                "liquidity"
+            ]
         }
         
     },
@@ -85,7 +95,9 @@
         "status",
         "platform",
         "events",
-        "reward",
-        "reffaral_link"
+        "rewards",
+        "reffaral_link",
+        "entry_function",
+        "elligibility"
     ]
 }
