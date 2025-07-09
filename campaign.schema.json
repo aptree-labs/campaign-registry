@@ -106,14 +106,6 @@
                 "interactions": {
                     "type": "integer",
                     "description": "Number of interactions required for elligibility"
-                },
-                "min_amount": {
-                    "type": "number",
-                    "description": "Min amount for a trade"
-                },
-                "token": {
-                    "type": "string",
-                    "description": "Optional token in event"
                 }
             }
         },
