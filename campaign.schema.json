@@ -76,22 +76,23 @@
                     "name": {
                         "type": "string"
                     },
-                    "check_eligibility": {
-                        "$ref": "#/definitions/queryFilter"
+                    "rewards": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "check_eligibility": {
+                                    "$ref": "#/definitions/queryFilter"
+                                },
+                                "droplets": {
+                                    "type": "number"
+                                }
+                            }
+                        }
                     }
-                    
                 },
-                "required": ["name"]
+                "required": ["name", "rewards"]
             }
-        },
-        "rewards": {
-            "type": "object",
-            "properties": {
-                "droplets": {
-                    "type": "number"
-                }
-            },
-            "required": ["droplets"]
         },
         "reffaral_link": {
             "type": "string"
@@ -99,15 +100,6 @@
         "network": {
             "type": "string",
             "enum": ["testnet", "mainnet"]
-        },
-        "elligibility": {
-            "type": "object",
-            "properties": {
-                "interactions": {
-                    "type": "integer",
-                    "description": "Number of interactions required for elligibility"
-                }
-            }
         },
         "category": {
             "type": "string",
@@ -127,9 +119,7 @@
         "status",
         "platform",
         "events",
-        "rewards",
         "reffaral_link",
-        "entry_function",
-        "elligibility"
+        "entry_function"
     ]
 }

@@ -11,14 +11,13 @@
     "status": "active",
     "events": [
         {
-            "name": "0x1c3206329806286fd2223647c9f9b130e66baeb6d7224a18c1f642ffe48f3b4c::panora_swap::PanoraSwapSummaryEvent"
+            "name": "0x1c3206329806286fd2223647c9f9b130e66baeb6d7224a18c1f642ffe48f3b4c::panora_swap::PanoraSwapSummaryEvent",
+            "rewards": [
+                {
+                    "droplets": 100
+                }
+            ]
         }
     ],
-    "rewards": {
-        "droplets": 0
-    },
-    "elligibility": {
-        "interactions": 1
-    },
     "category": "swap"
 }
