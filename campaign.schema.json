@@ -86,6 +86,10 @@
                                 },
                                 "droplets": {
                                     "type": "number"
+                                },
+                                "max_rewards": {
+                                    "type": "number",
+                                    "description": "The max number of times the user can be rewarded for this campaign having met the reward criteria"
                                 }
                             }
                         }
