@@ -14,6 +14,7 @@
             "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV2",
             "rewards": [
                 {
+                    "id": "r4",
                     "droplets": 400
                 }
             ]

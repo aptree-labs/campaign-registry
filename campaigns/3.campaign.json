@@ -14,6 +14,7 @@
             "name": "0x9538c839fe490ccfaf32ad9f7491b5e84e610ff6edc110ff883f06ebde82463d::KanalabsRouterV2::swap_entry_with_recipient",
             "rewards": [
                 {
+                    "id": "r3",
                     "droplets": 300
                 }
             ]

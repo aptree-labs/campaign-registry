@@ -81,6 +81,7 @@
                         "items": {
                             "type": "object",
                             "properties": {
+                                "id": {"type": "string"},
                                 "check_eligibility": {
                                     "$ref": "#/definitions/queryFilter"
                                 },

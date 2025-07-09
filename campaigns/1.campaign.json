@@ -14,6 +14,7 @@
             "name": "0x1c3206329806286fd2223647c9f9b130e66baeb6d7224a18c1f642ffe48f3b4c::panora_swap::PanoraSwapSummaryEvent",
             "rewards": [
                 {
+                    "id": "r1",
                     "droplets": 100
                 }
             ]
