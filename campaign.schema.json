@@ -1,6 +1,43 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#", 
     "type": "object",
+    "definitions": {
+        "queryFilter": {
+            "type": "object",
+            "properties": {
+                "field": {
+                    "type": "string"
+                },
+                "eq": {},
+                "neq": {}, 
+                "gt": {
+                    "type": "number"
+                },
+                "lt": {
+                    "type": "number"
+                },
+                "in": {
+                    "type": "array"
+                },
+                "and": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/queryFilter"
+                    }
+                },
+                "or": {
+                    "type": "array", 
+                    "items": {
+                        "$ref": "#/definitions/queryFilter"
+                    }
+                },
+                "not": {
+                    "$ref": "#/definitions/queryFilter"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
     "properties": {
         "id": {
             "type": "string"
@@ -38,6 +75,9 @@
                 "properties": {
                     "name": {
                         "type": "string"
+                    },
+                    "check_eligibility": {
+                        "$ref": "#/definitions/queryFilter"
                     }
                     
                 },
