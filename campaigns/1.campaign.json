@@ -20,5 +20,9 @@
             ]
         }
     ],
-    "category": "swap"
+    "category": "swap",
+    "filters": [
+        "featured",
+        "new"
+    ]
 }

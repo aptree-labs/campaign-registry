@@ -26,5 +26,8 @@
     "elligibility": {
         "interactions": 1
     },
-    "category": "swap"
+    "category": "swap",
+    "filters": [
+        "more-points"
+    ]
 }
