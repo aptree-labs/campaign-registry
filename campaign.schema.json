@@ -112,8 +112,14 @@
                 "swap",
                 "liquidity"
             ]
+        },
+        "filters": {
+            "type": "array",
+            "description": "A way to simplify categorisation to easily configure how campaigns will be filtered by end users",
+            "items": {
+                "type": "string"
+            }
         }
-        
     },
     "required": [
         "id",
