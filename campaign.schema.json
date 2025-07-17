@@ -99,7 +99,7 @@
                 "required": ["name", "rewards"]
             }
         },
-        "reffaral_link": {
+        "referral_link": {
             "type": "string"
         },
         "network": {
@@ -130,7 +130,7 @@
         "status",
         "platform",
         "events",
-        "reffaral_link",
+        "referral_link",
         "entry_function"
     ]
 }
