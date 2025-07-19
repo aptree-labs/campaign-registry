@@ -6,16 +6,34 @@
     "platform": "hyperion",
     "start_at": 1751888498347,
     "end_at": 1754480498347,
-    "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_v3::swap_batch_coin_entry",
-    "referral_link": "",
+    "referral_link": "https://hyperion.xyz/swap?from=0x1::aptos_coin::AptosCoin&to=0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
     "status": "active",
-    "events": [
+    "functions": [
         {
-            "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::SwapEventV2",
-            "rewards": [
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_v3::swap_batch_coin_entry",
+            "events": [
                 {
-                    "id": "r1",
-                    "droplets":200
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::SwapEventV2",
+                    "rewards": [
+                        {
+                            "id": "r1",
+                            "droplets":200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_v3::swap_batch_coin_directly_deposit_entry",
+            "events": [
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::SwapEventV3",
+                    "rewards": [
+                        {
+                            "id": "r1",
+                            "droplets":200
+                        }
+                    ]
                 }
             ]
         }

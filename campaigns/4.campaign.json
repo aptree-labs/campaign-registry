@@ -6,26 +6,38 @@
     "platform": "hyperion",
     "start_at": 1751888498347,
     "end_at": 1754480498347,
-    "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_entry",
-    "referral_link": "",
+    "referral_link": "https://hyperion.xyz/pool/0x925660b8618394809f89f8002e2926600c775221f43bf1919782b297a79400d8",
     "status": "active",
-    "events": [
+    "functions": [
         {
-            "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV2",
-            "rewards": [
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_entry",
+            "events": [
                 {
-                    "id": "r4",
-                    "droplets": 400
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV2",
+                    "rewards": [
+                        {
+                            "id": "r4",
+                            "droplets": 400
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_coin_entry",
+            "events": [
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV3",
+                    "rewards": [
+                        {
+                            "id": "r8",
+                            "droplets": 900
+                        }
+                    ]
                 }
             ]
         }
-    ],
-    "rewards": {
-        "droplets": 0
-    },
-    "elligibility": {
-        "interactions": 1
-    },
+    ], 
     "category": "swap",
     "filters": [
         "more-points"

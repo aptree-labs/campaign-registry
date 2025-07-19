@@ -65,38 +65,46 @@
         "platform": {
             "type": "string"
         },
-        "entry_function": {
-            "type": "string"
-        },
-        "events": {
+        "functions": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "name": {
+                    "entry_function": { 
                         "type": "string"
                     },
-                    "rewards": {
+                    "events": {
                         "type": "array",
                         "items": {
                             "type": "object",
                             "properties": {
-                                "id": {"type": "string"},
-                                "check_eligibility": {
-                                    "$ref": "#/definitions/queryFilter"
+                                "name": {
+                                    "type": "string"
                                 },
-                                "droplets": {
-                                    "type": "number"
-                                },
-                                "max_rewards": {
-                                    "type": "number",
-                                    "description": "The max number of times the user can be rewarded for this campaign having met the reward criteria"
+                                "rewards": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {"type": "string"},
+                                            "check_eligibility": {
+                                                "$ref": "#/definitions/queryFilter"
+                                            },
+                                            "droplets": {
+                                                "type": "number"
+                                            },
+                                            "max_rewards": {
+                                                "type": "number",
+                                                "description": "The max number of times the user can be rewarded for this campaign having met the reward criteria"
+                                            }
+                                        }
+                                    }
                                 }
-                            }
+                            },
+                            "required": ["name", "rewards"]
                         }
                     }
-                },
-                "required": ["name", "rewards"]
+                }
             }
         },
         "referral_link": {
@@ -129,8 +137,7 @@
         "end_at",
         "status",
         "platform",
-        "events",
         "referral_link",
-        "entry_function"
+        "functions"
     ]
 }
