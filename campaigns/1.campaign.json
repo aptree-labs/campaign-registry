@@ -1,12 +1,11 @@
 {
     "id": "1",
     "network": "mainnet",
-    "title": "Swap anything on Panora", 
-    "description": "Swap on Panora",
+    "title": "Panora Aurora", 
+    "description": "Smart-route swaps beneath the aurora; droplets pour, expanding lush flora.",
     "platform": "panora",
     "start_at": 1751888498347,
-    "end_at": 1754480498347,
-    "entry_function": "0x1c3206329806286fd2223647c9f9b130e66baeb6d7224a18c1f642ffe48f3b4c::panora_swap::router_entry",
+    "end_at": 1785757217018,
     "referral_link": "https://app.panora.exchange/swap/aptos",
     "status": "active",
     "category": "swap",
@@ -29,5 +28,8 @@
     "filters": [
         "featured",
         "new"
+    ],
+    "action_tags": [
+        "swap"
     ]
 }

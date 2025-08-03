@@ -127,6 +127,12 @@
             "items": {
                 "type": "string"
             }
+        },
+        "action_tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     },
     "required": [

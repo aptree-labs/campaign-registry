@@ -1,0 +1,44 @@
+{
+    "id": "10",
+    "title": "Kofi Trophy",
+    "description": "Stake and mint to lift the trophy; droplets raise the canopy lofty.",
+    "start_at": 1754221472038,
+    "end_at": 1785757217018,
+    "status": "active",
+    "platform": "kofi",
+    "referral_link": "https://app.kofi.finance/mint",
+    "functions": [
+        {
+            "entry_function": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::gateway::deposit_entry",
+            "events": [ 
+                {
+                    "name": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::minting_manager::MintEvent",
+                    "rewards": [
+                        {
+                            "id": "ko1",
+                            "droplets": 200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::gateway::stake_entry",
+            "events": [
+                {
+                    "name": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::staking_manager::StakeEvent",
+                    "rewards": [
+                        {
+                            "id": "ko2",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "action_tags": [
+        "mint",
+        "stake"
+    ]
+}

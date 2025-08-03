@@ -1,11 +1,11 @@
 {
     "id": "2",
     "network": "mainnet",
-    "title": "Swap anything on Hyperion", 
-    "description": "Swap any asset of any amount on Hyperion",
+    "title": "Hyperion Horizon", 
+    "description": "Cast liquidity toward the horizon; droplets rise, roots start upris'n.",
     "platform": "hyperion",
     "start_at": 1751888498347,
-    "end_at": 1754480498347,
+    "end_at": 1785757217018,
     "referral_link": "https://hyperion.xyz/swap?from=0x1::aptos_coin::AptosCoin&to=0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
     "status": "active",
     "functions": [
@@ -16,7 +16,7 @@
                     "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::SwapEventV3",
                     "rewards": [
                         {
-                            "id": "r1",
+                            "id": "h1",
                             "droplets":200
                         }
                     ]
@@ -30,23 +30,82 @@
                     "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::SwapEventV3",
                     "rewards": [
                         {
-                            "id": "r1",
+                            "id": "h1",
                             "droplets":200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_entry",
+            "events": [
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV2",
+                    "rewards": [
+                        {
+                            "id": "h4",
+                            "droplets": 400
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_coin_entry",
+            "events": [
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV3",
+                    "rewards": [
+                        {
+                            "id": "h8",
+                            "droplets": 500
+                        }
+                    ]
+                },
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::CreatePoolEvent", 
+                    "rewards": [
+                        {
+                            "id": "h7",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_both_coin_entry",
+            "events": [
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV3",
+                    "rewards": [
+                        {
+                            "id": "h2",
+                            "droplets": 500
+                        }
+                    ]
+                },
+                {
+                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::CreatePoolEvent", 
+                    "rewards": [
+                        {
+                            "id": "h3",
+                            "droplets": 500
                         }
                     ]
                 }
             ]
         }
     ],
-    "rewards": {
-        "droplets": 0
-    },
-    "elligibility": {
-        "interactions": 1
-    },
     "category": "swap",
     "filters": [
         "featured",
         "trending"
+    ],
+    "action_tags": [
+        "swap",
+        "add-liquidity",
+        "create-pool"
     ]
 }
