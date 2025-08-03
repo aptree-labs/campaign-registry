@@ -29,7 +29,7 @@
                     "name": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::staking_manager::StakeEvent",
                     "rewards": [
                         {
-                            "id": "ko1",
+                            "id": "ko2",
                             "droplets": 500
                         }
                     ]

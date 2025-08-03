@@ -46,7 +46,7 @@
             ]
         },
         {
-            "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::router::add_liquidity",
+            "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::add_liquidity",
             "events": [
                 {
                     "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::LiquidityAdded",
