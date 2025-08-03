@@ -20,7 +20,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Swap",
+            "description": "Swap any asset pair on Cellana"
         },
         {
             "entry_function": "0x4bf51972879e3b95c4781a5cdcb9e1ee24ef483e7d22f2d903626f126df62bd1::router::create_pool_both_coins",
@@ -34,7 +36,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Create Pool",
+            "description": "Create a pool on Cellana"
         },
         {
             "entry_function": "0x4bf51972879e3b95c4781a5cdcb9e1ee24ef483e7d22f2d903626f126df62bd1::router::add_liquidity_and_stake_both_coins_entry",
@@ -48,7 +52,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Deposit Liquidity",
+            "description": "Deposit to a liquidity pool on Cellana"
         },
         {
             "entry_function": "0x4bf51972879e3b95c4781a5cdcb9e1ee24ef483e7d22f2d903626f126df62bd1::router::add_liquidity_and_stake_entry",
@@ -62,7 +68,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Stake",
+            "description": "Stake on Cellana"
         }
     ],
     "action_tags": [

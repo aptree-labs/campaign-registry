@@ -20,7 +20,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Swap"
         },
         {
             "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::create_pool_add_liquidity",
@@ -43,7 +44,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Create a Liquidity Pool"
         },
         {
             "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::add_liquidity",
@@ -57,7 +59,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Add Liquidity"
         }
     ],
     "action_tags": [

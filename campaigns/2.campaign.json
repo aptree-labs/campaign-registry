@@ -21,7 +21,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Swap on Hyperion", 
+            "description": "Swap any asset pair on hyperion"
         },
         {
             "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_v3::swap_batch_coin_directly_deposit_entry",
@@ -35,7 +37,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "is_duplicate": true
         },
         {
             "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_entry",
@@ -49,7 +52,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Add Liquidity",
+            "description": "Add Liquidity to any pool on hyperion"
         },
         {
             "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_coin_entry",
@@ -72,7 +77,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Create a Liquidity Pool", 
+            "description": "Create a liquidity Pool on Hyperion"
         },
         {
             "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_both_coin_entry",
@@ -95,7 +102,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "is_duplicate": true
         }
     ],
     "category": "swap",

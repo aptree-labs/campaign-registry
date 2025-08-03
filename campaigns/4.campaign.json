@@ -20,7 +20,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Deposit",
+            "description": "Deposit APT on Aries"
         }
     ],
     "action_tags": [
