@@ -144,6 +144,7 @@
         "status",
         "platform",
         "referral_link",
-        "functions"
+        "functions",
+        "action_tags"
     ]
 }
