@@ -20,7 +20,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Supply Liquidity",
+            "description": "Deposit Liquidity on any pool"
         },
         {
             "entry_function": "0xc6bc659f1649553c1a3fa05d9727433dc03843baac29473c817d06d39e7621ba::scripts::supply",
@@ -34,7 +36,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "is_duplicate": true
         },
         {
             "entry_function": "0x024c90c44edf46aa02c3e370725b918a59c52b5aa551388feb258bd5a1e82271::isolated_lending::add_collateral",
@@ -48,7 +51,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Add collateral",
+            "description": ""
         }
     ],
     "action_tags": [

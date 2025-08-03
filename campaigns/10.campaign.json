@@ -20,7 +20,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Mint kAPT"
         },
         {
             "entry_function": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::gateway::stake_entry",
@@ -34,7 +35,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Stake on KoFi"
         }
     ],
     "action_tags": [

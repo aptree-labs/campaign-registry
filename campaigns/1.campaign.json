@@ -18,11 +18,13 @@
                     "rewards": [
                         {
                             "id": "r1",
-                            "droplets": 100
+                            "droplets": 200
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "Swap on Panora",
+            "description": "Swap any asset pairs on Panora"
         }
     ],
     "filters": [
