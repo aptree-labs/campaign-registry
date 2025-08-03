@@ -1,0 +1,68 @@
+{
+    "id": "11",
+    "title": "Tapp Recap",
+    "description": "Spin pools, then take the recap; droplets tap roots in rhythmic clap.",
+    "start_at": 1754221472038,
+    "end_at": 1785757217018,
+    "status": "active",
+    "platform": "tapp",
+    "referral_link": "https://tapp.exchange/swap",
+    "functions": [
+        {
+            "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::swap",
+            "events": [
+                {
+                    "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::Swapped",
+                    "rewards": [
+                        {
+                            "id": "t1",
+                            "droplets": 200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::create_pool_add_liquidity",
+            "events": [
+                {
+                    "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::PoolCreated",
+                    "rewards": [
+                        {
+                            "id": "t2",
+                            "droplets": 500
+                        }
+                    ]
+                },
+                {
+                    "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::LiquidityAdded",
+                    "rewards": [
+                        {
+                            "id": "t3",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::router::add_liquidity",
+            "events": [
+                {
+                    "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::LiquidityAdded",
+                    "rewards": [
+                        {
+                            "id": "t4",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "action_tags": [
+        "create-pool",
+        "add-liquidity",
+        "swap"
+    ]
+}

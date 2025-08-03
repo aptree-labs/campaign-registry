@@ -1,0 +1,58 @@
+{
+    "id": "11",
+    "title": "Thala Gala",
+    "description": "Mint and stake at the Thala gala; droplets flow like a moonlit raga.",
+    "start_at": 1754221472038,
+    "end_at": 1785757217018,
+    "status": "active",
+    "platform": "thala",
+    "referral_link": "https://www.thala.fi/",
+    "functions": [
+        {
+            "entry_function": "0x007730cd28ee1cdc9e999336cbc430f99e7c44397c0aa77516f6f23a78559bb5::coin_wrapper::add_liquidity_stable",
+            "events": [
+                {
+                    "name": "0x7730cd28ee1cdc9e999336cbc430f99e7c44397c0aa77516f6f23a78559bb5::pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "th1",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "entry_function": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::scripts::stake_APT",
+            "events": [
+                {
+                    "name": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakeAPTEvent",
+                    "rewards": [
+                        {
+                            "id": "th2",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::scripts::stake_APT_and_thAPT",
+            "events": [
+                {
+                    "name": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakeAPTEvent", 
+                    "rewards": [
+                        {
+                            "id": "th3",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "action_tags": [
+        "stake",
+        "deposit-liquidity"
+    ]
+}

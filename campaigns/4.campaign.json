@@ -1,45 +1,29 @@
 {
     "id": "4",
-    "network": "mainnet",
-    "title": "Add liquidity on hyperion", 
-    "description": "Add liquidity of any amount to any pool on hyperion",
-    "platform": "hyperion",
-    "start_at": 1751888498347,
-    "end_at": 1754480498347,
-    "referral_link": "https://hyperion.xyz/pool/0x925660b8618394809f89f8002e2926600c775221f43bf1919782b297a79400d8",
+    "title": "Aries Flare",
+    "description": "Trade and lend with blazing flare; droplets spark your tree up there.",
+    "start_at": 1754221472038,
+    "end_at": 1785757217018,
     "status": "active",
+    "platform": "aries",
+    "referral_link": "https://app.ariesmarkets.xyz/lending",
     "functions": [
         {
-            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_entry",
+            "entry_function": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::controller::deposit_fa",
             "events": [
                 {
-                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV2",
+                    "name": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::profile::SyncProfileDepositEvent",
                     "rewards": [
                         {
-                            "id": "r4",
-                            "droplets": 400
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_coin_entry",
-            "events": [
-                {
-                    "name": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::pool_v3::AddLiquidityEventV3",
-                    "rewards": [
-                        {
-                            "id": "r8",
-                            "droplets": 900
+                            "id": "a1",
+                            "droplets": 500
                         }
                     ]
                 }
             ]
         }
-    ], 
-    "category": "swap",
-    "filters": [
-        "more-points"
+    ],
+    "action_tags": [
+        "deposit-liquidity"
     ]
 }

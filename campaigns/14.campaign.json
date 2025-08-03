@@ -1,0 +1,57 @@
+{
+    "id": "14",
+    "title": "Amnis Oasis",
+    "description": "Liquid-stake APT in the oasis—droplets raise your yield basis.",
+    "start_at": 1754221472038,
+    "end_at": 1785757217018,
+    "status": "active",
+    "platform": "amnis",
+    "referral_link": "https://amnis.finance/",
+    "functions": [
+        {
+            "entry_function": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::deposit_entry",
+            "events": [
+                {
+                    "name": "0x1::stake::AddStake",
+                    "rewards": [
+                        {
+                            "id": "amn1",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "entry_function": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::deposit_and_stake_entry",
+            "events": [
+                {
+                    "name": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::StakeEvent",
+                    "rewards": [
+                        {
+                            "id": "amn2",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entry_function": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::stake_entry",
+            "events": [
+                {
+                    "name": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::StakeEvent",
+                    "rewards": [
+                        {
+                            "id": "am3",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "action_tags": [
+        "stake"
+    ]
+}
