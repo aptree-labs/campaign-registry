@@ -3,5 +3,15 @@
     "name": "Kofi",
     "description": "Maximize your APT Potential",
     "image": "kofi.png",
-    "link": "https://kofi.io"
+    "link": "https://kofi.io",
+    "bio": "Kofi Finance is a Liquid Staking protocol that maximises user's yields through cutting edge strategies such as MEV revenue share and leveraged liquid staking vaults",
+    "rank": "premier",
+    "categories": ["defi"],
+    "scheduled_highlights": [],
+    "socials": [
+        {
+            "link": "https://x.com/kofi_finance",
+            "platform": "x"
+        }
+    ]
 }

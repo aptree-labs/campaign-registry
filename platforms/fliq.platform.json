@@ -3,5 +3,20 @@
     "name": "Fliq",
     "description": "Turn real world events into tradable markets instantly",
     "image": "fliq.jpg",
-    "link": "https://fliq.io"
+    "link": "https://fliq.io",
+    "bio": "",
+    "socials": [
+        {
+            "link": "https://x.com/echelonmarket",
+            "platform": "x"
+        }, 
+        {
+            "link": "https://discord.gg/echelonmarket",
+            "platform": "discord"
+        }
+    ],
+    "categories": [
+        "defi"
+    ],
+    "rank": "listed"
 }
