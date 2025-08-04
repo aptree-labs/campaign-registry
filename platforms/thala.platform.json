@@ -1,7 +1,21 @@
 {
     "id": "thala",
     "name": "Thala Labs",
-    "description": "DeFi HyperApp – Powered by Move, Now Live on Aptos",
+    "description": "DeFi HyperApp - Powered by Move, Now Live on Aptos",
     "image": "thala-logo.avif",
-    "link": "https://www.thala.fi/"
+    "link": "https://www.thala.fi/",
+    "bio": "Thala is a decentralized finance protocol, enabling seamless borrowing of a decentralized, over-collateralized stablecoin named Move Dollar and capital-efficient liquidity provisioning via a rebalancing AMM.",
+    "rank": "listed",
+    "categories": ["defi"],
+    "socials": [
+        {
+            "platform": "x",
+            "link": "https://twitter.com/ThalaLabs"
+        },
+        {
+            "platform": "discord",
+            "link": "https://discord.gg/thala"
+        }
+    ],
+    "scheduled_highlights": []
 }

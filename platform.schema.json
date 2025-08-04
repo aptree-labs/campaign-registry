@@ -14,7 +14,51 @@
         },
         "link": {
             "type": "string"
+        },
+        "bio": {
+            "type": "string"
+        },
+        "socials": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "platform": {"type": "string"},
+                    "link": {"type": "string"}
+                },
+                "required": [
+                    "platform",
+                    "link"
+                ]
+            }
+        },
+        "categories": {
+            "type": "array", 
+            "items": {
+                "type": "string"
+            }
+        },
+        "scheduled_highlights": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "from": {"type": "number"},
+                    "to": {"type": "number"}
+                },
+                "required": ["from", "to"]
+            }
+        },
+        "rank": {
+            "type": "string",
+            "enum": [
+                "legendary",
+                "premier",
+                "featured",
+                "verified",
+                "listed"
+            ]
         }
     },
-    "required": ["id", "name", "description", "image", "link"]
+    "required": ["id", "name", "description", "image", "link", "socials", "categories","bio", "rank"]
 }

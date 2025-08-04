@@ -3,5 +3,21 @@
     "name": "Amnis Finance",
     "description": "Liquidity Staking Protocol on Aptos",
     "image": "amnis.png",
-    "link": "https://amnis.finance/"
+    "link": "https://amnis.finance/",
+    "socials": [
+        {
+            "platform": "x",
+            "link": "https://twitter.com/AmnisFinance"
+        },
+        {
+            "platform": "discord",
+            "link": "https://dsc.gg/amnisfinance"
+        }
+    ],
+    "categories": ["defi"],
+    "bio": "As a Pioneering Liquidity Staking on Aptos, Amnis Finance introduces a secure, user-friendly and innovative liquid staking protocol that empowers APTOS ecosystem users and APTOS investors (institutional & individual) to effortlessly maximize returns on their APT tokens while unlocking their liquidity.\nBenefits for users:  Amnis removes barriers that restrict individual users from participating in Staking activities (these barriers may include: minimum amount for staking, technical setup, lockup period) Amnis enhance flexibilities in managing assets: Users now have the opportunity to stake their assets and earn staking rewards. At the same time they can utilize LST derivative assets to actively engage in Defi activities.\nAudited by MoveBit & Verichain.",
+    "rank": "listed",
+    "scheduled_highlights": [
+
+    ]
 }

@@ -3,5 +3,10 @@
     "name": "Aptos Names Service",
     "description": "Register your aptos domain",
     "image": "aptos-names-service.png",
-    "link": "https://www.aptosnames.com/"
+    "link": "https://www.aptosnames.com/",
+    "socials": [],
+    "bio": "",
+    "categories": [],
+    "rank": "listed",
+    "scheduled_highlights": []
 }

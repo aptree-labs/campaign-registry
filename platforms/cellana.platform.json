@@ -3,5 +3,19 @@
     "name": "Cellana Finance",
     "description": "The first Aptos DEX which uses the Ve(3,3) Model in Move.",
     "image": "cellana-logo.png",
-    "link": "https://cellana.finance/"
+    "link": "https://cellana.finance/",
+    "bio": "Cellana Finance's Ve(3,3) economic model tackles the obstacles of motivating liquidity providers and guaranteeing revenue for DEX governance token holders. Our groundbreaking strategy establishes a self-sufficient solution that effectively harmonizes incentives and rewards.  A cutting-edge DEX adhering to the Ve(3,3) model presents an optimal platform for emerging projects to establish their liquidity pool. In a traditional DEX, if a project desires to bootstrap its LP, the pool must offer enticing incentives and the ability to receive a portion of token emissions from the DEX. However, the DEX retains complete control over token emissions and can introduce incentives to liquidity pools. Consequently, projects or protocols possess minimal to no authority in influencing the DEX. Hence, the Ve(3,3) DEX resolves this predicament by granting the community the autonomy to incorporate incentives and redirect token emissions. \nTraditional DEXes such as Pancakeswap and Uniswap encounter challenges regarding revenue distribution for protocol token holders and providing adequate incentives for liquidity providers.  Trading fees frequently fail to entice liquidity providers, resulting in the implementation of liquidity mining initiatives that involve token emissions. Regrettably, the continuous emission of tokens can significantly influence the token's price in the long run.\nFurthermore, protocol token holders need help diverting revenue from liquidity providers towards the DEX, as any such action would prompt more liquidity providers to withdraw, thereby diminishing overall liquidity and trade volumes.  In a nutshell, the Ve(3,3) model solves these issues through a unique fee and incentive structure:  Directing all trading fees to voters.  Attracting liquidity providers with CELL emissions.  Empowering projects to add incentives into liquidity pools to attract voters as voting power represents a share of token emissions.",
+    "socials": [
+        {
+            "link": "https://twitter.com/CellanaFinance",
+            "platform": "x"
+        },
+        {
+            "link": "https://discord.com/invite/k96s4KqSUC",
+            "platform": "discord"
+        }
+    ],
+    "rank": "listed",
+    "categories": ["defi"],
+    "scheduled_highlights": []
 }

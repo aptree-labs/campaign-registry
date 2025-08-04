@@ -3,5 +3,21 @@
     "name": "Panora Exchange",
     "description": "Smart dex aggregator on Aptos",
     "image": "panora.png",
-    "link": "https://panora.exchange"
+    "link": "https://panora.exchange",
+    "socials": [
+        {
+            "link": "https://twitter.com/PanoraExchange",
+            "platform": "x"
+        },
+        {
+            "link": "https://discord.com/invite/EXhEqqTcjs",
+            "platform": "discord"
+        }
+    ],
+    "bio": "Panora serves as a one-stop trading hub for all DeFi needs, offering Meta-DEX Aggregator and On-Chain Orderbook as products, to provide users with the best routes and rates in the market.",
+    "rank": "listed",
+    "categories": ["defi"],
+    "scheduled_highlights": [
+        
+    ]
 }
