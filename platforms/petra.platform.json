@@ -1,0 +1,21 @@
+{
+    "id": "petra",
+    "name": "Petra Wallet",
+    "description": "A web3 wallet to explore Aptos by Aptos Labs",
+    "image": "hyperion.png",
+    "link": "https://hyperion.xyz",
+    "socials": [
+        {
+            "link": "https://x.com/hyperion_xyz",
+            "platform": "x"
+        },
+        {
+            "link": "https://discord.com/invite/HAANFQcEKn",
+            "platform": "discord"
+        }
+    ],
+    "categories": ["defi"],
+    "bio": "Petra makes it easy to store your assets, transact with friends, and connect with apps on the Aptos blockchain.\nOur industry-leading partners and Aptos’ scalable, lightning-fast protocol lets you buy APT, send tokens and experience the magic of web3 in moments.\nSafely store and manage all your assets in Petra, a self-custodial wallet. Whether it’s the latest NFT drop, a prized collectible, or any other token - we support it all.",
+    "rank": "legendary",
+    "scheduled_highlights": []
+}
