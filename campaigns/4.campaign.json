@@ -1,6 +1,6 @@
 {
     "id": "4",
-    "title": "Aries Flare",
+    "title": "Aries Campaign",
     "description": "Trade and lend with blazing flare; droplets spark your tree up there.",
     "start_at": 1754221472038,
     "end_at": 1785757217018,
@@ -21,8 +21,8 @@
                     ]
                 }
             ],
-            "name": "Deposit",
-            "description": "Deposit APT on Aries"
+            "name": "Supply liquidity on Aries",
+            "description": "Supply liquidity on Aries"
         }
     ],
     "action_tags": [

@@ -21,7 +21,7 @@
                     ]
                 }
             ],
-            "name": "Supply Liquidity",
+            "name": "Supply Liquidity on Echelon",
             "description": "Deposit Liquidity on any pool"
         },
         {
@@ -52,8 +52,9 @@
                     ]
                 }
             ],
-            "name": "Add collateral",
-            "description": ""
+            "name": "Lending",
+            "description": "",
+            "is_duplicate": true
         }
     ],
     "action_tags": [

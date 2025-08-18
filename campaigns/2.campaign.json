@@ -17,7 +17,7 @@
                     "rewards": [
                         {
                             "id": "h1",
-                            "droplets":200
+                            "droplets":100
                         }
                     ]
                 }
@@ -33,7 +33,7 @@
                     "rewards": [
                         {
                             "id": "h1",
-                            "droplets":200
+                            "droplets":100
                         }
                     ]
                 }
@@ -48,12 +48,12 @@
                     "rewards": [
                         {
                             "id": "h4",
-                            "droplets": 400
+                            "droplets": 500
                         }
                     ]
                 }
             ],
-            "name": "Add Liquidity",
+            "name": "Provide Liquidity on Hyperion",
             "description": "Add Liquidity to any pool on hyperion"
         },
         {
@@ -78,8 +78,8 @@
                     ]
                 }
             ],
-            "name": "Create a Liquidity Pool", 
-            "description": "Create a liquidity Pool on Hyperion"
+            "name": "Create Liquidity Pool on Hyperion", 
+            "description": "Create a liquidity Pool"
         },
         {
             "entry_function": "0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c::router_adapter::create_liquidity_both_coin_entry",

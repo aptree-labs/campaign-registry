@@ -21,7 +21,7 @@
                     ]
                 }
             ],
-            "name": "Add Liquidity"
+            "name": "Provide Liquidity on Thala"
         },
         {
             "entry_function": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::scripts::stake_APT",
@@ -36,7 +36,7 @@
                     ]
                 }
             ],
-            "name": "Stake APT"
+            "name": "Stake on Thala"
         },
         {
             "entry_function": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::scripts::stake_APT_and_thAPT",

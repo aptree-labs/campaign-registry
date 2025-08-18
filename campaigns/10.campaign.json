@@ -6,7 +6,7 @@
     "end_at": 1785757217018,
     "status": "active",
     "platform": "kofi",
-    "referral_link": "https://app.kofi.finance/mint",
+    "referral_link": "https://app.kofi.finance/mint?ref=z6e128",
     "functions": [
         {
             "entry_function": "0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f::gateway::deposit_entry",
@@ -16,7 +16,7 @@
                     "rewards": [
                         {
                             "id": "ko1",
-                            "droplets": 200
+                            "droplets": 100
                         }
                     ]
                 }
@@ -36,7 +36,7 @@
                     ]
                 }
             ],
-            "name": "Stake on KoFi"
+            "name": "Stake kAPT for stkAPT"
         }
     ],
     "action_tags": [
