@@ -16,13 +16,13 @@
                     "rewards": [
                         {
                             "id": "a1",
-                            "droplets": 500
+                            "droplets": 200
                         }
                     ]
                 }
             ],
-            "name": "Supply liquidity on Aries",
-            "description": "Supply liquidity on Aries"
+            "name": "Lend on Aries",
+            "description": "Lend on Aries"
         },
         {
             "entry_function": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::controller::deposit",
