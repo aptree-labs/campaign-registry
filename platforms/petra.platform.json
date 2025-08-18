@@ -2,15 +2,15 @@
     "id": "petra",
     "name": "Petra Wallet",
     "description": "A web3 wallet to explore Aptos by Aptos Labs",
-    "image": "hyperion.png",
-    "link": "https://hyperion.xyz",
+    "image": "petra-logo.avif",
+    "link": "https://petra.app/",
     "socials": [
         {
-            "link": "https://x.com/hyperion_xyz",
+            "link": "https://twitter.com/PetraWallet",
             "platform": "x"
         },
         {
-            "link": "https://discord.com/invite/HAANFQcEKn",
+            "link": "https://discord.gg/4FQjUq2aK9",
             "platform": "discord"
         }
     ],
