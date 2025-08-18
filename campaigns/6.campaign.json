@@ -47,7 +47,7 @@
                     "rewards": [
                         {
                             "id": "e3",
-                            "droplets": 200
+                            "droplets": 500
                         }
                     ]
                 }
@@ -55,6 +55,22 @@
             "name": "Lending",
             "description": "",
             "is_duplicate": true
+        },
+        {
+            "entry_function": "0xc6bc659f1649553c1a3fa05d9727433dc03843baac29473c817d06d39e7621ba::scripts::borrow_fa",
+            "events": [
+                {
+                    "name": "0xc6bc659f1649553c1a3fa05d9727433dc03843baac29473c817d06d39e7621ba::lending::BorrowEvent",
+                    "rewards": [
+                        {
+                            "id": "e2",
+                            "droplets": 800
+                        }
+                    ]
+                }
+            ],
+            "name": "Borrow on Echelon",
+            "description": ""
         }
     ],
     "action_tags": [
