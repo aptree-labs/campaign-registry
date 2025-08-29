@@ -84,7 +84,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "is_duplicate": true
         }
     ],
     "action_tags": [
