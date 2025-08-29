@@ -1,0 +1,89 @@
+{
+    "id": "01",
+    "title": "Fliq Quick",
+    "description": "Turn headlines to markets silky quick; droplets tick and leaves grow thick.",
+    "start_at": 1751888498347,
+    "end_at": 1785757217018,
+    "status": "active",
+    "platform": "fliq",
+    "referral_link": "https://www.fliq.one/#/",
+    "category": "prediction",
+    "network": "mainnet",
+    "functions": [
+        {
+            "name": "Place a trade",
+            "description": "Fliq it!!",
+            "entry_function": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::place_limit_order",
+            "events": [
+                {
+                    "name": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::FillEvent",
+                    "rewards": [
+                        {
+                            "id": "fliq1",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "entry_function": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::place_market_order",
+            "events": [
+                {
+                    "name": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::FillEvent",
+                    "rewards": [
+                        {
+                            "id": "fliq2",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        },
+        {
+            "name": "",
+            "description": "",
+            "entry_function": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::acquire_token_via_splitting",
+            "events": [
+                {
+                    "name": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::FillEvent",
+                    "rewards": [
+                        {
+                            "id": "fliq3",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        },
+        {
+            "name": "",
+            "description": "",
+            "entry_function": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::deacquire_token_via_merging",
+            "events": [
+                {
+                    "name": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::FillEvent",
+                    "rewards": [
+                        {
+                            "id": "fliq4",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        }
+    ],
+    "action_tags": [
+        "predict",
+        "trade"
+    ],
+    "filters": [
+        "trending",
+        "new"
+    ]
+}
