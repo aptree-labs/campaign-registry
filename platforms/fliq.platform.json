@@ -3,9 +3,13 @@
     "name": "Fliq",
     "description": "Turn real world events into tradable markets instantly",
     "image": "fliq.jpg",
-    "link": "https://fliq.io",
+    "link": "https://www.fliq.one/#/",
     "bio": "",
     "socials": [
+        {
+            "link": "https://x.com/predictonfliq",
+            "platform": "x"
+        }
     ],
     "categories": [
         "defi"
