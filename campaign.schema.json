@@ -73,6 +73,9 @@
                     "entry_function": { 
                         "type": "string"
                     },
+                    "is_script": {
+                        "type": "boolean"
+                    },
                     "events": {
                         "type": "array",
                         "items": {

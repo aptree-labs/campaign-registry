@@ -14,6 +14,7 @@
             "name": "Place a trade",
             "description": "Fliq it!!",
             "entry_function": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::place_limit_order",
+            "is_script": true,
             "events": [
                 {
                     "name": "0xf2c57228ac8dd67d87b9dab79cabb6424e8f5c66f6031478d12fbe1b57ef694::ctf_market_adapter::FillEvent",
