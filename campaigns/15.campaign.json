@@ -21,7 +21,7 @@
                     "rewards": [
                         {
                             "id": "fliq1",
-                            "droplets": 100
+                            "droplets": 800
                         }
                     ]
                 }
@@ -37,7 +37,7 @@
                     "rewards": [
                         {
                             "id": "fliq2",
-                            "droplets": 100
+                            "droplets": 800
                         }
                     ]
                 }
@@ -54,7 +54,7 @@
                     "rewards": [
                         {
                             "id": "fliq3",
-                            "droplets": 100
+                            "droplets": 800
                         }
                     ]
                 }
@@ -71,7 +71,7 @@
                     "rewards": [
                         {
                             "id": "fliq4",
-                            "droplets": 100
+                            "droplets": 800
                         }
                     ]
                 }

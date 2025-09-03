@@ -64,7 +64,7 @@
                     "rewards": [
                         {
                             "id": "e2",
-                            "droplets": 800
+                            "droplets": 200
                         }
                     ]
                 }
@@ -80,7 +80,7 @@
                     "rewards": [
                         {
                             "id": "e4", 
-                            "droplets": 800
+                            "droplets": 200
                         }
                     ]
                 }
