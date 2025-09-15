@@ -34,9 +34,33 @@
                             "droplets": 500
                         }
                     ]
+                },
+                {
+                    "name": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakeThalaAPTEvent",
+                    "rewards": [
+                        {
+                            "id": "th2",
+                            "droplets": 500
+                        }
+                    ]
                 }
             ],
             "name": "Mint thAPT"
+        },
+        {
+            "entry_function": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::scripts::stake_thAPT",
+            "events": [
+                {
+                    "name": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakeThalaAPTEvent",
+                    "rewards": [
+                        {
+                            "id": "th2",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
         },
         {
             "entry_function": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::scripts::stake_APT_and_thAPT",
@@ -46,6 +70,15 @@
                     "rewards": [
                         {
                             "id": "th3",
+                            "droplets": 500
+                        }
+                    ]
+                },
+                {
+                    "name": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakeThalaAPTEvent",
+                    "rewards": [
+                        {
+                            "id": "th2",
                             "droplets": 500
                         }
                     ]
