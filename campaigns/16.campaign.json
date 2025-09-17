@@ -28,6 +28,24 @@
             ]
         },
         {
+            "name": "Swap on Earnium",
+            "description": "Swap",
+            "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::swap_route_entry",
+            "is_script": true,
+            "events": [
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::SwapEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium1",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        },
+        {
             "name": "Add liquidity to an Earnium",
             "description": "Add liquidity",
             "entry_function": "0x7c92a9636a412407aaede35eb2654d176477c00a47bc11ea3338d1f571ec95bc::premium_staked_pool::add_liquidity_and_stake_entry",
