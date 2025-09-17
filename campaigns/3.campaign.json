@@ -34,7 +34,7 @@
                     "rewards": [
                         {
                             "id": "kana3",
-                            "droplets": 200
+                            "droplets": 800
                         }
                     ],
                     "is_proxy": true
@@ -57,7 +57,7 @@
                     "rewards": [
                         {
                             "id": "kana5",
-                            "droplets": 200
+                            "droplets": 800
                         }
                     ],
                     "is_proxy": true
