@@ -102,6 +102,9 @@
                                             }
                                         }
                                     }
+                                },
+                                "is_proxy": {
+                                    "type": "boolean"
                                 }
                             },
                             "required": ["name", "rewards"]
