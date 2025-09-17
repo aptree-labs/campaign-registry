@@ -1,0 +1,81 @@
+{
+    "id": "16",
+    "title": "Earnium",
+    "description": "Earnium",
+    "start_at": 1751888498347,
+    "end_at": 1785757217018,
+    "status": "active",
+    "platform": "earnium",
+    "referral_link": "https://app.earnium.io/",
+    "category": "liquidity",
+    "network": "mainnet",
+    "functions": [
+        {
+            "name": "Swap on Earnium",
+            "description": "Swap",
+            "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::swap_route_entry_from_coin",
+            "is_script": true,
+            "events": [
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::SwapEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium1",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Add liquidity to an Earnium",
+            "description": "Add liquidity",
+            "entry_function": "0x7c92a9636a412407aaede35eb2654d176477c00a47bc11ea3338d1f571ec95bc::premium_staked_pool::add_liquidity_and_stake_entry",
+            "events": [
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium2",
+                            "droplets": 500
+                        }
+                    ]
+                },
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium3",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::add_liquidity_and_stake_coin_entry",
+            "events": [
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium3",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        }
+    ],
+    "action_tags": [
+        "predict",
+        "trade"
+    ],
+    "filters": [
+        "trending",
+        "new"
+    ]
+}

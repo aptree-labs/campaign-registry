@@ -1,0 +1,21 @@
+{
+    "id": "earnium",
+    "name": "Earnium",
+    "description": "Earnium is a DEX built to unlock Billion $ trading volume",
+    "image": "earnium.avif",
+    "link": "https://app.earnium.io/",
+    "bio": "Earnium is a DEX built to unlock Billion $ trading volume",
+    "socials": [
+        {
+            "link": "https://x.com/earnium_io",
+            "platform": "x"
+        },
+        {
+            "link": "https://discord.gg/jAQrgdZCkq",
+            "platform": "discord"
+        }
+    ],
+    "rank": "listed",
+    "categories": ["defi"],
+    "scheduled_highlights": []
+}
