@@ -14,7 +14,6 @@
             "name": "Swap on Earnium",
             "description": "Swap",
             "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::swap_route_entry_from_coin",
-            "is_script": true,
             "events": [
                 {
                     "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::SwapEvent",
@@ -31,7 +30,6 @@
             "name": "Swap on Earnium",
             "description": "Swap",
             "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::swap_route_entry",
-            "is_script": true,
             "events": [
                 {
                     "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::SwapEvent",
@@ -71,6 +69,23 @@
                     "rewards": [
                         {
                             "id": "earnium3",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        },
+        {
+            "name": "",
+            "description": "",
+            "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::add_liquidity_and_stake_both_coins_entry",
+            "events": [
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium4",
                             "droplets": 500
                         }
                     ]
