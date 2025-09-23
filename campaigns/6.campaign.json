@@ -15,6 +15,27 @@
                     "name": "0xc6bc659f1649553c1a3fa05d9727433dc03843baac29473c817d06d39e7621ba::lending::SupplyEvent",
                     "rewards": [
                         {
+                            "id": "e8",
+                            "droplets": 600,
+                            "check_eligibility": {
+                                "eq": {
+                                    "market_obj.inner": "0x2c4e0bb55272f9c120ffd5a414c10244005caf9c1b14527cea3df7074c5bf623"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "name": "Supply USDC on Echelon",
+            "description": "Supply USDC"
+        },
+        {
+            "entry_function": "0xc6bc659f1649553c1a3fa05d9727433dc03843baac29473c817d06d39e7621ba::scripts::supply_fa",
+            "events": [
+                {
+                    "name": "0xc6bc659f1649553c1a3fa05d9727433dc03843baac29473c817d06d39e7621ba::lending::SupplyEvent",
+                    "rewards": [
+                        {
                             "id": "e1",
                             "droplets": 200
                         }
