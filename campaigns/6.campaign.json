@@ -18,9 +18,8 @@
                             "id": "e8",
                             "droplets": 600,
                             "check_eligibility": {
-                                "eq": {
-                                    "market_obj.inner": "0x2c4e0bb55272f9c120ffd5a414c10244005caf9c1b14527cea3df7074c5bf623"
-                                }
+                                "field": "market_obj.inner",
+                                "eq": "0x2c4e0bb55272f9c120ffd5a414c10244005caf9c1b14527cea3df7074c5bf623"
                             }
                         }
                     ]
