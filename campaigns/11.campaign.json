@@ -24,6 +24,22 @@
             "name": "Swap on Tapp Exchange"
         },
         {
+            "entry_function": "0x7bd64a730c360a87da24187d6d2e9128310ff25419facb3000d6b2293a06280a::entry::execute_routes",
+            "events": [
+                {
+                    "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::Swapped",
+                    "rewards": [
+                        {
+                            "id": "t14",
+                            "droplets": 100
+                        }
+                    ]
+                }
+            ],
+            "name": "Swap",
+            "is_duplicate": true
+        },
+        {
             "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::create_pool_add_liquidity",
             "events": [
                 {
