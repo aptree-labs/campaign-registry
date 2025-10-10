@@ -85,6 +85,21 @@
                 }
             ],
             "name": "Stake thAPT for sthAPT"
+        },
+        {
+            "entry_function": "0x7730cd28ee1cdc9e999336cbc430f99e7c44397c0aa77516f6f23a78559bb5::pool::add_liquidity_weighted_entry",
+            "events": [
+                {
+                    "name": "0x7730cd28ee1cdc9e999336cbc430f99e7c44397c0aa77516f6f23a78559bb5::pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "th1",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
         }
     ],
     "action_tags": [
