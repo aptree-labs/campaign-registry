@@ -1,0 +1,37 @@
+{
+    "id": "1",
+    "network": "mainnet",
+    "title": "Gui Lotto", 
+    "description": "From roots to riches, let your luck flow - join the Gui Lotto",
+    "platform": "guiinu",
+    "start_at": 1751888498347,
+    "end_at": 1785757217018,
+    "referral_link": "https://lottery.guiinu.com/",
+    "status": "active",
+    "category": "lottery",
+    "functions": [
+        {
+            "entry_function": "0x14ac0ad90e57a6efefa5191aab98ea36a2c2efbc126cfcb2c1a9cc0f0d787b98::main::batch_buy_ticket",
+            "events": [
+                {
+                    "name": "0x14ac0ad90e57a6efefa5191aab98ea36a2c2efbc126cfcb2c1a9cc0f0d787b98::main::BuyTicketEvent",
+                    "rewards": [
+                        {
+                            "id": "g1",
+                            "droplets": 1000
+                        }
+                    ]
+                }
+            ],
+            "name": "Get a lottery ticket",
+            "description": "Luck might be on your side today"
+        }
+    ],
+    "filters": [
+        "featured",
+        "new"
+    ],
+    "action_tags": [
+        "lottery"
+    ]
+}

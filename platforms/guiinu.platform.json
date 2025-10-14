@@ -1,0 +1,25 @@
+{
+    "id": "guiinu",
+    "name": "Gui Inu",
+    "description": "The #1 Aptos Community token",
+    "image": "guiinu.png",
+    "link": "https://www.guiinu.com",
+    "bio": "",
+    "socials": [
+        {
+            "link": "https://x.com/guiinuonaptos",
+            "platform": "x"
+        },
+        {
+            "link": "https://discord.com/invite/4UESwMp8cK",
+            "platform": "discord"
+        }
+    ],
+    "categories": [
+        "community",
+        "meme",
+        "token"
+    ],
+    "rank": "premier",
+    "scheduled_highlights": []
+}
