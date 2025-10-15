@@ -20,7 +20,7 @@
                     "rewards": [
                         {
                             "id": "earnium1",
-                            "droplets": 400
+                            "droplets": 100
                         }
                     ]
                 }
@@ -86,6 +86,23 @@
                     "rewards": [
                         {
                             "id": "earnium4",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
+        },
+        {
+            "name": "",
+            "description": "",
+            "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::add_liquidity_both_coins_entry",
+            "events": [
+                {
+                    "name": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::liquidity_pool::AddLiquidityEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium6",
                             "droplets": 500
                         }
                     ]
