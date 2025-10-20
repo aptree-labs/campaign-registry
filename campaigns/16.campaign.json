@@ -60,6 +60,21 @@
             ]
         },
         {
+            "entry_function": "0x7c92a9636a412407aaede35eb2654d176477c00a47bc11ea3338d1f571ec95bc::premium_staked_pool::stake",
+            "events": [
+                {
+                    "name": "0x7c92a9636a412407aaede35eb2654d176477c00a47bc11ea3338d1f571ec95bc::user_balance::StakeEvent",
+                    "rewards": [
+                        {
+                            "id": "earnium8",
+                            "droplets": 500
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": false
+        },
+        {
             "name": "",
             "description": "",
             "entry_function": "0x12169b6e1bf75ab1a2b2d987d20f8dd4c191e5dbc2066cb7e9af40b1fa7fb659::router::add_liquidity_and_stake_coin_entry",
