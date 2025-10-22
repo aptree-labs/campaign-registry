@@ -34,6 +34,19 @@
             "link": "https://stake.amnis.finance/stake"
         },
         {
+            "entry_function": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::deposit_entry",
+            "events": [
+                {
+                    "name": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::BurnEvent",
+                    "rewards": [
+                        {
+                            "id": "am5",
+                            "droplets": 500
+                        }
+                    ]
+                } ], "is_duplicate": true
+        },
+        {
             "entry_function": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::deposit_and_stake_entry",
             "events": [
                 {
