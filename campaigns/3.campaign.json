@@ -1,12 +1,12 @@
 {
     "id": "3",
     "network": "mainnet",
-    "title": "Kana Karma", 
-    "description": "Bridge in, trade out—rack up Kana Karma with every lightning-fast swap.",
+    "title": "Xyra Worrior", 
+    "description": "Thank you young worrior, for upholding the Kingdom of Xyra",
     "platform": "kana-labs",
     "start_at": 1751888498347,
     "end_at": 1785757217018,
-    "referral_link": "https://app.kanalabs.io/swap",
+    "referral_link": "https://app.xyralabs.io/swap",
     "status": "active",
     "functions": [
         {
@@ -22,9 +22,9 @@
                     ]
                 }
             ],
-            "name": "Swap on Kana Labs",
+            "name": "Swap on Xyra Labs",
             "description": "Swap any asset pair",
-            "link": "https://app.kanalabs.io/swap"
+            "link": "https://app.xyralabs.io/swap"
         },
         {
             "entry_function": "0xce2a2c7a0154eec98dd9bb8ac2d70d2259737008870b6295d61521eb6e11a04c::external_scripts::update_positions_and_place_delegated_limit_order",
@@ -45,9 +45,9 @@
                     "is_proxy": true
                 }
             ],
-            "name": "Place limit order on Kana Perps",
-            "description": "Kana perps limit order",
-            "link": "https://www.kana.trade/?market=BTC-PERP"
+            "name": "Place limit order on Xyra Perps",
+            "description": "Xyra perps limit order",
+            "link": "https://www.xyra.trade/?market=BTC-PERP"
         },
         {
             "entry_function": "0xce2a2c7a0154eec98dd9bb8ac2d70d2259737008870b6295d61521eb6e11a04c::external_scripts::update_positions_and_place_delegated_market_order",
@@ -68,9 +68,9 @@
                     "is_proxy": true
                 }
             ],
-            "name": "Place Market Order on Kana Perps",
+            "name": "Place Market Order on Xyra Perps",
             "description": "Place Market Order",
-            "link": "https://www.kana.trade/?market=BTC-PERP"
+            "link": "https://www.xyra.trade/?market=BTC-PERP"
         },
         {
             "entry_function": "0x7a38039fffd016adcac2c53795ee49325e5ec6fddf3bf02651c09f9a583655a6::perpetual_scripts::deposit",
@@ -85,9 +85,9 @@
                     ]
                 }
             ],
-            "name": "Fund Kana Perps profile",
-            "description": "Fund Kana Persp account",
-            "link": "https://www.kana.trade/?market=BTC-PERP"
+            "name": "Fund Xyra Perps profile",
+            "description": "Fund Xyra Perps account",
+            "link": "https://www.xyra.trade/?market=BTC-PERP"
         }
     ],
     "category": "swap",

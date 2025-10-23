@@ -1,20 +1,20 @@
 {
     "id": "kana-labs",
-    "name": "Kana Labs",
-    "description": "Decentralised trading suite with CEX like performance",
-    "image": "kana-labs.png",
-    "link": "https://kanalabs.io",
+    "name": "Xyra Labs",
+    "description": "User friendly super-app for DeFi - Crosschain swaps & CLOB-based fully on-chain Perps",
+    "image": "xyra-labs.jpg",
+    "link": "https://www.xyra.trade/?market=BTC-PERP",
     "bio": "A NetMarble and Jump Crypto project, Kana Labs is building the next-gen cross-chain ecosystem of DeFi, GameFi & NFTs.\nWe have built a core foundation layer of aggregated bridges and blockchains on which the next-gen tools for DeFi and Gamefi would be built - an ecosystem for seamless transactions, a layer-1 for Web3 and games to bridge through.\nLastly, we have the cheapest + fastest swap rates across on our dapp. Our smart wallet features - AA (Account Abstraction), social logins and everything customised.",
     "categories": ["defi"],
     "rank": "premier",
     "scheduled_highlights": [],
     "socials": [
         {
-            "link": "https://twitter.com/kanalabs",
+            "link": "https://x.com/xyralabs_",
             "platform": "x"
         },
         {
-            "link": "https://discord.com/invite/CrqCaQ45kZ",
+            "link": "https://discord.com/invite/zgMJEgVt38",
             "platform": "discord"
         }
     ]
