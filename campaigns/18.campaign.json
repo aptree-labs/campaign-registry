@@ -1,0 +1,37 @@
+{
+    "id": "17",
+    "network": "mainnet",
+    "title": "Merkle Sparkle", 
+    "description": "Make the market rattle with your trades, Merkle is the sparkle that never fades.",
+    "platform": "merkle",
+    "start_at": 1751888498347,
+    "end_at": 1785757217018,
+    "referral_link": "https://app.merkle.trade/",
+    "status": "active",
+    "category": "perps",
+    "functions": [
+        {
+            "entry_function": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::managed_trading::execute_order_v3",
+            "events": [
+                {
+                    "name": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::trading::PositionEvent",
+                    "rewards": [
+                        {
+                            "id": "merkle1",
+                            "droplets": 800
+                        }
+                    ]
+                }
+            ],
+            "name": "Open a Position on Merkle",
+            "description": "Merkle perps"
+        }
+    ],
+    "filters": [
+        "featured",
+        "new"
+    ],
+    "action_tags": [
+        "defi"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "merkle",
+    "name": "Merkle",
+    "description": "Seamless decentralised Perpetuals",
+    "image": "merkle-logo.jpg",
+    "link": "https://app.merkle.trade/",
+    "bio": "Seamless decentralised Perpetuals",
+    "rank": "premier",
+    "categories": ["defi"],
+    "scheduled_highlights": [],
+    "socials": [
+        {
+            "link": "https://x.com/Merkle_Trade",
+            "platform": "x"
+        },
+        {
+            "link": "https://discord.gg/merkle-trade",
+            "platform": "discord"
+        }
+    ]
+}
