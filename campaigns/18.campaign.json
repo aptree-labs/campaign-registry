@@ -25,6 +25,21 @@
             ],
             "name": "Open a Position on Merkle",
             "description": "Merkle perps"
+        },
+        {
+            "entry_function": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::managed_trading::execute_order_all",
+            "events": [
+                {
+                    "name": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::trading::PositionEvent",
+                    "rewards": [
+                        {
+                            "id": "merkle1",
+                            "droplets": 800
+                        }
+                    ]
+                }
+            ],
+            "is_duplicate": true
         }
     ],
     "filters": [
