@@ -106,7 +106,7 @@
             "is_duplicate": true
         },
         {
-          "entry_functions": "0x1::aptos_account::transfer_coins",
+          "entry_function": "0x1::aptos_account::transfer_coins",
           "events": [
             {
               "name": "0x1::fungible_asset::Deposit",
@@ -122,7 +122,7 @@
           "description": "Send money to 5 friends with petra to get a present."
         },
         {
-          "entry_functions": "0x1::aptos_account::transfer_fungible_assets",
+          "entry_function": "0x1::aptos_account::transfer_fungible_assets",
           "events": [
             {
               "name": "0x1::fungible_asset::Deposit",
