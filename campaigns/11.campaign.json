@@ -17,11 +17,22 @@
                         {
                             "id": "t1",
                             "droplets": 100
+                        },
+                        {
+                            "id": "vTappStablesCampaign",
+                            "droplets":0,
+                            "check_eligibility": {
+                                "field": "pool_addr",
+                                "in": [
+                                    "0x82e0b52f95ae57b35220726a32c3415919389aa5b8baa33a058d7125797535cc",
+                                    "0x76e7c1ad414f50274b371e51b7a272cf774c7027c2e4433b9f82ab47a6e5527b"
+                                ]
+                            }
                         }
                     ]
                 }
             ],
-            "name": "Swap on Tapp Exchange"
+            "name": "Swap Stables"
         },
         {
             "entry_function": "0x7bd64a730c360a87da24187d6d2e9128310ff25419facb3000d6b2293a06280a::entry::execute_routes",
@@ -32,11 +43,22 @@
                         {
                             "id": "t14",
                             "droplets": 100
+                        },
+                        {
+                            "id": "vTappStablesCampaign",
+                            "droplets":0,
+                            "check_eligibility": {
+                                "field": "pool_addr",
+                                "in": [
+                                    "0x82e0b52f95ae57b35220726a32c3415919389aa5b8baa33a058d7125797535cc",
+                                    "0x76e7c1ad414f50274b371e51b7a272cf774c7027c2e4433b9f82ab47a6e5527b"
+                                ]
+                            }
                         }
                     ]
                 }
             ],
-            "name": "Swap",
+            "name": "Swap Stables",
             "is_duplicate": true
         },
         {
@@ -72,11 +94,22 @@
                         {
                             "id": "t4",
                             "droplets": 500
+                        },
+                        {
+                            "id": "vTappStablesCampaignDeposit",
+                            "droplets": 0,
+                            "check_eligibility": {
+                                "field": "pool_addr",
+                                "in": [
+                                    "0x76e7c1ad414f50274b371e51b7a272cf774c7027c2e4433b9f82ab47a6e5527b",
+                                    "0x82e0b52f95ae57b35220726a32c3415919389aa5b8baa33a058d7125797535cc"
+                                ]
+                            }
                         }
                     ]
                 }
             ],
-            "name": "Provide Liquidity on Tapp Exchange"
+            "name": "Provide Liquidity on Stable Pools"
         }
     ],
     "action_tags": [
