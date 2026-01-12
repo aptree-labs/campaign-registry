@@ -2,7 +2,7 @@
     "id": "tapp",
     "name": "Tapp Exchange",
     "description": "Unlocking Liquidity-as-a-Service via Next-Gen V4 DEX Technology.",
-    "image": "tapp.png",
+    "image": "tapp2.png",
     "link": "https://tapp.exchange/",
     "bio": "TAPP is the first DEX on Aptos to bring Uniswap V4-style features, delivering next-generation liquidity infrastructure tailored for modular DeFi. With programmable smart contract hooks, protocols can fully customize their LP pools—adjusting fees, rewards, and oracles to fit unique use cases. TAPP also introduces flash accounting for more efficient swaps, enabling capital-efficient features like margin-leveraged pools while reducing transaction overhead.\nIts in-built Active Liquidity Management (ALM) system, combined with AI-powered routing and DEX aggregation, ensures best-price execution and optimized returns for LPs. TAPP isn't just a DEX—it’s a scalable, composable liquidity layer for the entire Aptos ecosystem. With ve(3,3) mechanics and compounding network effects from each new integration, TAPP builds a self-reinforcing moat that strengthens with every protocol onboarded.",
     "socials": [
