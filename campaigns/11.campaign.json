@@ -83,7 +83,8 @@
                     ]
                 }
             ],
-            "name": "Create a Liquidity Pool"
+            "name": "Create a Liquidity Pool",
+            "is_duplicate": true
         },
         {
             "entry_function": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::add_liquidity",
