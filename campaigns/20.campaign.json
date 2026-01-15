@@ -17,7 +17,26 @@
               "rewards": [
                 {
                   "id": "pgp",
-                  "droplets": 1
+                  "droplets": 1,
+                  "check_eligibility": {
+                    "field": "store",
+                    "in": [
+                      "0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
+                      "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
+                      "0x0009da434d9b873b5159e8eeed70202ad22dc075867a7793234fbc981b63e119",
+                      "0x9da434d9b873b5159e8eeed70202ad22dc075867a7793234fbc981b63e119",
+                      "0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105",
+                      "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt",
+                      "0xa259be733b6a759909f92815927fa213904df6540519568692caf0b068fe8e62",
+                      "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+                      "0x5fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+                      "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
+                      "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
+                      "0x1::aptos_coin::AptosCoin",
+                      "0x000000000000000000000000000000000000000000000000000000000000000a",
+                      "0xa"
+                    ]
+                  }
                 }
               ]
             }
@@ -33,7 +52,26 @@
               "rewards": [
                 {
                   "id": "pgp",
-                  "droplets": 1
+                  "droplets": 1,
+                  "check_eligibility": {
+                    "field": "store",
+                    "in": [
+                      "0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
+                      "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
+                      "0x0009da434d9b873b5159e8eeed70202ad22dc075867a7793234fbc981b63e119",
+                      "0x9da434d9b873b5159e8eeed70202ad22dc075867a7793234fbc981b63e119",
+                      "0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105",
+                      "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt",
+                      "0xa259be733b6a759909f92815927fa213904df6540519568692caf0b068fe8e62",
+                      "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+                      "0x5fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+                      "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
+                      "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
+                      "0x1::aptos_coin::AptosCoin",
+                      "0x000000000000000000000000000000000000000000000000000000000000000a",
+                      "0xa"
+                    ]
+                  }
                 }
               ]
             }
