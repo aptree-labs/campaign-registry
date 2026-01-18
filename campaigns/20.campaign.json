@@ -19,7 +19,7 @@
                   "id": "pgp",
                   "droplets": 1,
                   "check_payload": {
-                    "field": "arguments[1]",
+                    "field": "arguments[0]",
                     "in": [
                       "0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
                       "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
@@ -31,10 +31,7 @@
                       "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
                       "0x5fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
                       "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
-                      "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
-                      "0x1::aptos_coin::AptosCoin",
-                      "0x000000000000000000000000000000000000000000000000000000000000000a",
-                      "0xa"
+                      "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b"
                     ]
                   }
                 }
@@ -54,7 +51,7 @@
                   "id": "pgp",
                   "droplets": 1,
                   "check_payload": {
-                    "field": "arguments[1]",
+                    "field": "arguments[0]",
                     "in": [
                       "0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
                       "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
@@ -66,10 +63,7 @@
                       "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
                       "0x5fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
                       "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
-                      "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
-                      "0x1::aptos_coin::AptosCoin",
-                      "0x000000000000000000000000000000000000000000000000000000000000000a",
-                      "0xa"
+                      "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b"
                     ]
                   }
                 }
