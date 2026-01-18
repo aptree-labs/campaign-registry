@@ -93,6 +93,9 @@
                                             "check_eligibility": {
                                                 "$ref": "#/definitions/queryFilter"
                                             },
+                                            "check_payload": {
+                                                "$ref": "#/definitions/queryFilter"
+                                            },
                                             "droplets": {
                                                 "type": "number"
                                             },
