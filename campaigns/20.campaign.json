@@ -19,7 +19,7 @@
                   "id": "pgp",
                   "droplets": 1,
                   "check_payload": {
-                    "field": "arguments.1",
+                    "field": "arguments[1]",
                     "in": [
                       "0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
                       "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
@@ -54,7 +54,7 @@
                   "id": "pgp",
                   "droplets": 1,
                   "check_payload": {
-                    "field": "arguments.1",
+                    "field": "arguments[1]",
                     "in": [
                       "0x435ad41e7b383cef98899c4e5a22c8dc88ab67b22f95e5663d6c6649298c3a9d",
                       "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
