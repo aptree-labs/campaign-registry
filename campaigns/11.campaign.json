@@ -17,17 +17,6 @@
                         {
                             "id": "t1",
                             "droplets": 100
-                        },
-                        {
-                            "id": "vTappStablesCampaign",
-                            "droplets":0,
-                            "check_eligibility": {
-                                "field": "pool_addr",
-                                "in": [
-                                    "0x82e0b52f95ae57b35220726a32c3415919389aa5b8baa33a058d7125797535cc",
-                                    "0x76e7c1ad414f50274b371e51b7a272cf774c7027c2e4433b9f82ab47a6e5527b"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -43,17 +32,6 @@
                         {
                             "id": "t14",
                             "droplets": 100
-                        },
-                        {
-                            "id": "vTappStablesCampaign",
-                            "droplets":0,
-                            "check_eligibility": {
-                                "field": "pool_addr",
-                                "in": [
-                                    "0x82e0b52f95ae57b35220726a32c3415919389aa5b8baa33a058d7125797535cc",
-                                    "0x76e7c1ad414f50274b371e51b7a272cf774c7027c2e4433b9f82ab47a6e5527b"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -72,15 +50,6 @@
                             "droplets": 500
                         }
                     ]
-                },
-                {
-                    "name": "0x487e905f899ccb6d46fdaec56ba1e0c4cf119862a16c409904b8c78fab1f5e8a::router::LiquidityAdded",
-                    "rewards": [
-                        {
-                            "id": "t3",
-                            "droplets": 500
-                        }
-                    ]
                 }
             ],
             "name": "Create a Liquidity Pool",
@@ -95,17 +64,6 @@
                         {
                             "id": "t4",
                             "droplets": 500
-                        },
-                        {
-                            "id": "vTappStablesCampaignDeposit",
-                            "droplets": 0,
-                            "check_eligibility": {
-                                "field": "pool_addr",
-                                "in": [
-                                    "0x76e7c1ad414f50274b371e51b7a272cf774c7027c2e4433b9f82ab47a6e5527b",
-                                    "0x82e0b52f95ae57b35220726a32c3415919389aa5b8baa33a058d7125797535cc"
-                                ]
-                            }
                         }
                     ]
                 }
