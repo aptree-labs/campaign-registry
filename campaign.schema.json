@@ -159,5 +159,8 @@
         "referral_link",
         "functions",
         "action_tags"
-    ]
+    ],
+    "remove": {
+      "type": "boolean"
+    }
 }

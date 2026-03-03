@@ -150,5 +150,6 @@
     "filters": [
         "trending",
         "new"
-    ]
+    ],
+    "remove": true
 }

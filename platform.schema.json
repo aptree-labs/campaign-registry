@@ -60,5 +60,8 @@
             ]
         }
     },
+    "remove": {
+        "type": "boolean"
+    },
     "required": ["id", "name", "description", "image", "link", "socials", "categories","bio", "rank"]
 }
